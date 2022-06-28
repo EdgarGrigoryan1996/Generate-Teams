@@ -29,3 +29,8 @@
 	height: 50px;
 	font-weight: 900;
 }
+
+/* Teams */
+.teams-wrapper{
+	display:flex;
+}
