@@ -1,5 +1,5 @@
 import edgargrigoryanImg from "../../assets/playerImages/edgargrigoryan.png"
-import abulImg from "../../assets/playerImages/abul.png"
+import abulImg from "../../assets/playerImages/abul2.png"
 import arshoImg from "../../assets/playerImages/arsho.png"
 import edgarkirakosyanImg from "../../assets/playerImages/edgarkirakosyan.png"
 import vaheghazaryanImg from "../../assets/playerImages/vaheghazaryan.png"
@@ -12,7 +12,7 @@ import vardgesImg from "../../assets/playerImages/vardges.png"
 import tigranImg from "../../assets/playerImages/tigran.png"
 import mherImg from "../../assets/playerImages/mher.png"
 import aregImg from "../../assets/playerImages/areg.png"
-import noImg from "../../assets/playerImages/noImg.png"
+import miqoImg from "../../assets/playerImages/miqo.png"
 
 import onexImg from "../../assets/images/onex.png"
 import digitainImg from "../../assets/images/digitain.png"
@@ -29,8 +29,8 @@ const REMOVE_ALL_CHECKED = "REMOVE_ALL_CHECKED"
 const initialState = [
     {
         id:Symbol(),
-        name:"Edgar",
-        surname:"Grigoryan",
+        name:"HULK",
+        surname:"Hulk",
         rating:9,
         isChecked:false,
         inGame:false,
@@ -49,8 +49,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Vahe",
-        surname:"Ghazaryan",
+        name:"Oxlade",
+        surname:"Chamberlain",
         rating:8,
         isChecked:false,
         inGame:false,
@@ -69,8 +69,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Areg",
-        surname:"Hakobyan",
+        name:"Cristiano",
+        surname:"Ronaldo",
         rating:9,
         isChecked:false,
         inGame:false,
@@ -89,8 +89,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Abul",
-        surname:"Gasparyan",
+        name:"Kylian",
+        surname:"Mbappe",
         rating:7,
         isChecked:false,
         inGame:false,
@@ -110,8 +110,8 @@ const initialState = [
 
     {
         id:Symbol(),
-        name:"Arsho",
-        surname:"Kirakosyan",
+        name:"Davide",
+        surname:"Astori",
         rating:5,
         isChecked:false,
         inGame:false,
@@ -130,8 +130,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Edgar",
-        surname:"Kirakosyan",
+        name:"Harry",
+        surname:"Maguire",
         rating:6,
         isChecked:false,
         inGame:false,
@@ -150,8 +150,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Levon",
-        surname:"Baghdasaryan",
+        name:"Lionel",
+        surname:"Messi",
         rating:8,
         isChecked:false,
         inGame:false,
@@ -170,8 +170,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Harut",
-        surname:"Abrahamyan",
+        name:"Alarcon",
+        surname:"Isco",
         rating:9,
         isChecked:false,
         inGame:false,
@@ -190,8 +190,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Mher",
-        surname:"Paronyan",
+        name:"Arjen",
+        surname:"Robben",
         rating:7,
         isChecked:false,
         inGame:false,
@@ -211,8 +211,8 @@ const initialState = [
 
     {
         id:Symbol(),
-        name:"Tigran",
-        surname:"Safaryan",
+        name:"Juan",
+        surname:"Mata",
         rating:4,
         isChecked:false,
         inGame:false,
@@ -231,8 +231,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Davit",
-        surname:"Maqoyan",
+        name:"Thierry",
+        surname:"Henry",
         rating:7,
         isChecked:false,
         inGame:false,
@@ -251,8 +251,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Narek",
-        surname:"Meloyan",
+        name:"Marco",
+        surname:"Reus",
         rating:4,
         isChecked:false,
         inGame:false,
@@ -271,8 +271,8 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Vardges",
-        surname:"Avetisyan",
+        name:"Hurling",
+        surname:"Crumlin",
         rating:7,
         isChecked:false,
         inGame:false,
@@ -291,15 +291,15 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Vahe",
-        surname:"Yeranosyan",
+        name:"Jan",
+        surname:"Huntelar",
         rating:4,
         isChecked:false,
         inGame:false,
         inBadPlayer:false,
         img:vaheyeranosyanImg,
         companyImage:onexImg,
-        position:"GK",
+        position:"CB",
         skills:{
             pace:49,
             shooting:44,
@@ -311,13 +311,13 @@ const initialState = [
     },
     {
         id:Symbol(),
-        name:"Miqo",
-        surname:"Sirunyan",
+        name:"Francesco",
+        surname:"Totti",
         rating:6,
         isChecked:false,
         inGame:false,
         inBadPlayer:false,
-        img:noImg,
+        img:miqoImg,
         companyImage:noCompanyImg,
         position:"LM",
         skills:{

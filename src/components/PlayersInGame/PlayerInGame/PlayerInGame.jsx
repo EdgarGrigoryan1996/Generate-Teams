@@ -1,6 +1,5 @@
 import "./card.css"
 import noImg from "../../../assets/playerImages/noImg.png"
-import armeniaFlag from "../../../assets/images/armenia.png"
 import {useDispatch} from "react-redux";
 import {removePlayer} from "../../../redux/reducers/readyPlayersReducer";
 import {removeChecked} from "../../../redux/reducers/defaultPlayersReducer";
@@ -18,12 +17,12 @@ const PlayerInGame = ({player,badPlayer,onlySee}) =>{
                     <div className="player-master-info">
                         <div className="player-rating"><span>{player.rating}</span></div>
                         <div className="player-position"><span>{player.position}</span></div>
-                        <div className="player-nation"><img
-                            src={armeniaFlag} alt="Argentina"
-                            draggable="false"/></div>
-                        <div className="player-club"><img
-                            src={player.companyImage} alt="Company Name"
-                            draggable="false"/></div>
+                        {/*<div className="player-nation"><img*/}
+                        {/*    src={armeniaFlag} alt="Argentina"*/}
+                        {/*    draggable="false"/></div>*/}
+                        {/*<div className="player-club"><img*/}
+                        {/*    src={player.companyImage} alt="Company Name"*/}
+                        {/*    draggable="false"/></div>*/}
                     </div>
                     <div className="player-picture"><img
                         src={player.img ? player.img : noImg} alt="Messi"
@@ -32,7 +31,7 @@ const PlayerInGame = ({player,badPlayer,onlySee}) =>{
                 </div>
                 <div className="player-card-bottom">
                     <div className="player-info">
-                        <div className="player-name"><span>{player.name}</span></div>
+                        <div className="player-name"><span>{player.surname}</span></div>
                         <div className="player-features">
                             <div className="player-features-col"><span>
               <div className="player-feature-value">{player.skills.pace}</div>
